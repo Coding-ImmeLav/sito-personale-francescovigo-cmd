@@ -13,7 +13,9 @@
     
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Francesco</a>
+            <a class="navbar-brand" href="#">
+                Francesco
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,9 +27,9 @@
                     <li class="nav-item">
                     <a class="nav-link" href="./pages/stage.html">Stage</a>
                     </li>
-                    <!-- <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                    </li> -->
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pages/extra.html">Extra</a>
+                    </li>
                 </ul>
             </div>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
@@ -40,7 +42,7 @@
     <section class="benvenuto">
         <div>
             <h2>Benvenuto nel mio sito</h2>
-            <p>Francesco Vigo</p>
+            <p>Francesco</p>
         </div>
     </section>
 
@@ -60,28 +62,49 @@
     <!-- Sezione passioni  -->
     <section class="container-fluid passioni">
        <div class="row">
-            <h3>Le mie Passioni</h3>
+            <h3 class="text-center">Le mie Passioni</h3>
        </div>
-       <div class="row justify-content-around align-items-center">
+       <div class="row justify-content-around align-items-center mt-5 mb-5">
 
             <div class="card h-100" style="width: 18rem;">
                 <img src="./img/3345616-68392588-2560-1440.jpg" class="card-img-top" alt="...">
+                <dvi class="card-header">
+                    <span class="badge text-bg-success">Tempo libero</span>
+                </dvi>
                 <div class="card-body">
                     <p class="card-text">Formula 1</p>
+                    <p class="card-text">Ho come passione da quando ero piccolo, delle corse automobilistiche</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-outline-danger">Scropi di più</button>
                 </div>
             </div>
 
             <div class="card h-100" style="width: 18rem;">
                 <img src="./img/d1320f3bb5eea05c188e3d8ac604fe31.jpg" class="card-img-top" alt="...">
+                <dvi class="card-header">
+                    <span class="badge text-bg-success">Tempo libero</span>
+                </dvi>
                 <div class="card-body">
-                    <p class="card-text">Inter</p>
+                    <p class="card-text">Calcio</p>
+                    <p class="card-text">bla bla blaaaaaaaaaaaaaaaaaaaaa</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-outline-danger">Scropi di più</button>
                 </div>
             </div>
 
             <div class="card h-100" style="width: 18rem;">
                 <img src="./img/videogiochi.jpg" class="card-img-top" alt="...">
+                <dvi class="card-header">
+                    <span class="badge text-bg-success">Tempo libero</span>
+                </dvi>
                 <div class="card-body">
                     <p class="card-text">Videogiochi</p>
+                    <p class="card-text">ffffffffffffffffffffffffffff</p>
+                </div>
+                 <div class="card-footer">
+                    <button type="button" class="btn btn-outline-danger">Scropi di più</button>
                 </div>
             </div>
 
@@ -89,6 +112,7 @@
 
     </section>
 
+    <!-- sezione cv -->
     <section class="container-fluid cv">
         <div class="row justify-content-center">
             <div class="col-lg-7 foglio">
@@ -100,19 +124,17 @@
                 <p>Qui andrò a scrivere in 3 righe qualcosa su di me</p>
                 <hr>
 
-                <h4 class="pt-2">Esperienza lavorativa</h4>
+                <h4 class="pt-2">Esperienza Lavorativa</h4>
                 <p class="pt-3">
                     <b>Ruolo ricoperto</b> - Posto di lavoro <br>
                     <i>Mese anno - mese anno</i> <br>
-                    Cosa facevo 
+                    Cosa facevo
                 </p>
-                <hr>
 
-                <h4>Esperienza lavorativa</h4>
                 <p class="pt-3">
-                    <b>Stage curriculare</b> - Prestige Group <br>
+                    <b>Stage</b> - Prestige Group <br>
                     <i>Marzo 2024 - Maggio 2024</i> <br>
-                    Ripazazione Hardware - Gestione ounto vendita - installazione software
+                    Riparazione hardware - Gestione punto vendita - Installazione software
                 </p>
                 <hr>
 
@@ -122,26 +144,26 @@
                     <i>Settembre 2023 - Giugno 2026</i>
                 </p>
 
-                <h4 class="pt-2">Istruzione</h4>
                 <p class="pt-3">
-                    <b>Geometra</b> - Enrico De Nicola <br>
-                    <i>Settembre 2022 - Giugno 2022</i>
+                    <b>Qualifica altra scuola</b> - Nome altra scuola <br>
+                    <i>Settembre 2023 - Giugno 2026</i> <!-- date corrette -->
                 </p>
                 <hr>
 
                 <h4 class="pt-2">Lingue</h4>
                 <p class="pt-3">
                     <b>Italiano</b> - Madrelingua <br>
-                    <b>Inglese</b> - buono <br>
-                </p> 
+                </p>
             </div>
         </div>
         <div class="row justify-content-center pt-5">
-            <button type="button" class="btn btn-primary">Scarica il CV</button>
+            <a class="text-center" href="./doc/CvCv.pdf" target="_blank">
+                <button type="button" class="btn btn-primary">Scarica il CV</button>
+            </a>
         </div>
     </section>
 
-     <footer>
+    <footer>
        <div class="container-fluid">
             <div class="row">
                 <div class="col-4">
@@ -164,7 +186,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                         <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
                         </svg>
-                        <b>E-mail:</b> federico.pozzi@immaginazioneelavoro.it
+                        <b>E-mail:</b> Francesco.vigo@edu.immaginazioneelavoro.it
                     </p>
                 </div>
 
@@ -176,14 +198,6 @@
        </div>
     </footer>
   
-
-
-
-
-
-
-
-
 
     <!-- script di bootstrap  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

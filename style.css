@@ -3,8 +3,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 90vh; 
-    background-color: grey;  
+    /* vh è percentuale dello schermo  */
+    height: 90vh;
+    background-color: aquamarine;
 }
 
 .bio {
@@ -14,7 +15,7 @@
 }
 
 .foglio {
-    border: 0.5px solid rgb(66, 66, 66);
+    border: 0.5px solid rgb(60, 60, 60);
     padding: 5%;
 }
 
@@ -35,3 +36,18 @@ footer {
     background-color: cadetblue;
     padding: 5vh;
 }
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+}
+
+.card-header, .card-footer {
+    background-color: transparent;
+    border: none;
+}
+
